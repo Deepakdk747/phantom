@@ -12,37 +12,37 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "YOUR BOT TOKEN HERE"
-    OWNER_ID = "YOUR OWN ID HERE"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "YOUR USERNAME HERE"
+    API_KEY = 1012018820:AAF6XjqHCxWrR7cI_AE-woEws_WH7Cvjsxk
+    OWNER_ID = 887023254
+    OWNER_USERNAME = @Light_bring_er
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = 'sqldbtype://username:pw@hostname:port/db_name'  # needed for any database modules
-    MESSAGE_DUMP = None  # needed to make sure 'save from' messages persist
-    GBAN_LOGS = None #Channel ID here with -
+    SQLALCHEMY_DATABASE_URI =
+    MESSAGE_DUMP = None  # 1233333333
+    GBAN_LOGS = @bgfhjygbj
     LOAD = []
     NO_LOAD = ['translation', 'rss']   
-    WEBHOOK = False
+    WEBHOOK = False ANYTHING 
     URL = None
 
     # OPTIONAL
     #ID Seperation format [1,2,3,4]
-    SUDO_USERS = get_user_list('elevated_users.json', 'sudos')  # List of id's -  (not usernames) for users which have sudo access to the bot.
-    DEV_USERS = get_user_list('elevated_users.json', 'devs')  # List of id's - (not usernames) for developers who will have the same perms as the owner
-    SUPPORT_USERS = get_user_list('elevated_users.json', 'supports')  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = get_user_list('elevated_users.json', 'whitelists')  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = [964158165 1227877179 794636595 883281262 1299182841 723100827]
+    DEV_USERS = 887023254
+    SUPPORT_USERS = [964158165 1227877179 794636595 883281262 1299182841 723100827]
+    WHITELIST_USERS = [964158165 1227877179 794636595 883281262 1299182841 723100827]
     CERT_PATH = None
-    PORT = 5000
+    PORT = 8443
     DEL_CMDS = False  #Delete commands that users dont have access to, like delete /ban if a non admin uses it.
     STRICT_GBAN = False
     STRICT_GMUTE = False
-    WORKERS = 8  # Number of subthreads to use. Set as number of threads your processor uses
+    WORKERS = 8 
     BAN_STICKER = 'CAADAgADOwADPPEcAXkko5EB3YGYAg'  # banhammer marie sticker
     ALLOW_EXCL = False  # Allow ! commands as well as /
-    CASH_API_KEY = None # Get one from https://www.alphavantage.co/support/#api-key
-    TIME_API_KEY = None # Get one from https://timezonedb.com/register
+    CASH_API_KEY = None # 
+    TIME_API_KEY = Noe  #
     API_OPENWEATHER = False #Get API_OPENWEATHER FROM OFFICAL SITE https://da.gd/VAW3
-    AI_API_KEY = None # Coffeehouse chatbot api key, get one from https://coffeehouse.intellivoid.info/
+    AI_API_KEY =5e42c10d3f4d159de058fb5658082e04156b8e0e144527e931cafc68aba2534f8c3abed5c1f141863be41f90dc595006aa1b93661d881472358037787327b15d
     WALL_API = None # Get one from https://wall.alphacoders.com/api.php
 
 
